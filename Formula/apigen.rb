@@ -1,8 +1,8 @@
 class Apigen < Formula
   desc "Generate Protobuf service definitions conforming to popular design guides"
   homepage "https://github.com/thames-technology/apigen"
-  url "https://github.com/thames-technology/apigen/archive/refs/tags/v0.0.2.tar.gz"
-  sha256 "6f4d2c2bb84dfe5619ddeb8b9546c78bf8180e0a79005e35e4485b5f04230ede"
+  url "https://github.com/thames-technology/apigen/archive/refs/tags/v0.0.3.tar.gz"
+  sha256 "e26c14588d59455dffdc92696a752954d43d011700d53886752ed5760322f89a"
   license "MIT"
 
   depends_on "go" => :build
