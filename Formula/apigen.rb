@@ -1,5 +1,5 @@
 class Apigen < Formula
-  desc "Generate Protobuf service definitions conforming to popular design guides"
+  desc "Generate standard Protobuf and ts-rest APIs following best-practice design patterns"
   homepage "https://github.com/thames-technology/apigen"
   url "https://github.com/thames-technology/apigen/archive/refs/tags/v0.0.3.tar.gz"
   sha256 "e26c14588d59455dffdc92696a752954d43d011700d53886752ed5760322f89a"
