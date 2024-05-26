@@ -1,8 +1,8 @@
 class Apigen < Formula
   desc "Generate Protobuf service definitions conforming to popular design guides"
   homepage "https://github.com/thames-technology/apigen"
-  url "https://github.com/thames-technology/apigen/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "44042337405077e693c29a1c6c8cd52af2cb86d9bbdfb719844097b783c164b7"
+  url "https://github.com/thames-technology/apigen/archive/refs/tags/v0.0.2.tar.gz"
+  sha256 "6f4d2c2bb84dfe5619ddeb8b9546c78bf8180e0a79005e35e4485b5f04230ede"
   license "MIT"
 
   depends_on "go" => :build
@@ -11,7 +11,7 @@ class Apigen < Formula
     ldflags = "-s -w -X main.version=#{version}"
     system "go", "build", *std_go_args(ldflags:)
 
-    # generate_completions_from_executable(bin/"ots", "completion")
+    # generate_completions_from_executable(bin/"apigen", "completion")
   end
 
   test do
